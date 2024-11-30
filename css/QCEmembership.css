@@ -1,0 +1,371 @@
+/* Main content here Kyusi Esports */
+/* DEFAULT CSS NG CONTENTS AND SIGN UP */
+    
+.content {
+    margin: 15.625rem 9.375rem 0 8.6875rem;
+}
+
+.h1title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem); 
+    line-height: 4.125rem;
+    font-family: 'ZuumeEL';
+}
+
+.h2content {
+    font-size: clamp(1.25rem, 3vw, 2.5rem); 
+    font-family: 'ZuumeEL';
+    font-weight: 200;
+    color: #C1C1C1;
+    text-align: justify;
+}
+
+.box {
+    max-width: 101.25rem;
+    padding: 0 1.875rem;
+    margin: 9.375rem 0 12.5rem 6.25%;
+    width: 80%;
+    height: 12.5rem;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    border-radius: 1.875rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.jointheteam {
+    font-size: 1.8rem;
+    color: #cb0c43;
+    text-align: left;
+    margin-right: 1.25rem;
+    flex: 1;
+}
+
+.jtth1, .jtth2 {
+    transition: all 0.3s ease;
+}
+
+.jtth1 {
+    font-family: 'ZuumeEL';
+    font-size: 5.625rem;
+    margin-left: 1.875rem;
+    color: #cb0c43;
+}
+
+.jtth2 {
+    font-size: 1.80625rem;
+    color: rgb(0, 0, 0);
+}
+
+.inputsignup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.inputtype {
+    width: 80%;
+    height: 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 0.625rem;
+}
+
+.signup {
+    color: white;
+    margin-left: 0.625rem;
+    width: 8.125rem;
+    height: 2.5rem;
+    font-size: 1.0625rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    background-color: #cb0c43;
+}
+
+/* RESPONSIVENESS NG CONTENTS NG MEMBERSHIP */
+@media (max-width: 1611px) {
+    .content {
+        margin: 15.625rem 9.375rem 0 8.6875rem;
+    }
+
+    .box {
+        padding: 0 1.875rem;
+        margin: 9.375rem 0 12.5rem 6.25%;
+        width: 80%;
+        height: 12.5rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        font-size: 1.8rem;
+        color: #0a0a0a;
+        text-align: left;
+        margin-right: -3.125rem;
+    }
+
+    .jtth1 {
+        font-size: 5rem;
+    }
+
+    .jtth2 {
+        font-size: 1.25rem;
+    }
+
+    .inputsignup {
+        width: 50%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .inputtype {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1370px) {
+    .content {
+        margin: 9.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        padding: 0 1.875rem;
+        margin: 9.375rem 0 12.5rem 10.25%;
+        width: 80%;
+        height: 12.5rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        font-size: 1.5rem;
+        color: #0a0a0a;
+        text-align: left;
+        margin-right: -3.1875rem;
+    }
+
+    .inputsignup {
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .inputtype {
+        width: 90%;
+    }
+
+    .signup {
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .content {
+        margin: 9.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        padding: 0 1.875rem;
+        margin: 5.375rem 0 5.5rem 10.25%;
+        width: 80%;
+        height: 18.75rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        font-size: 1.4rem;
+        color: #0a0a0a;
+        text-align: center;
+        margin-right: -.5rem;
+    }
+
+    .jtth1 {
+        font-size: 3.75rem;
+        justify-content: center;
+    }
+
+    .jtth2 {
+        font-size: 1.0625rem;
+    }
+
+    .inputsignup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputtype {
+        width: 60%;
+        margin-left: 5px;
+    }
+
+    .signup {
+        width: 60%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin: 6.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        padding: 0;
+        margin: 5.375rem 0 5.5rem 10.25%;
+        width: 80%;
+        height: 18.75rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        font-size: 0.8rem;
+        color: #0a0a0a;
+        text-align: center;
+        margin-right: 1.25rem;
+    }
+
+    .jtth1 {
+        font-size: 2rem;
+    }
+
+    .jtth2 {
+        font-size: 0.5rem;
+    }
+
+    .inputsignup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputtype {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .signup {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin: 6.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        padding: 0;
+        margin: 5.375rem 0 5.5rem 10.25%;
+        width: 80%;
+        height: 15.75rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        font-size: 1.1rem;
+        color: #0a0a0a;
+        text-align: center;
+        margin-right: 1.25rem;
+    }
+
+    
+    .inputsignup {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 21px;
+    }
+
+    .inputtype {
+        width: 80%;
+    }
+
+    .signup {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    .content {
+        margin: 5.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        padding: 0;
+        margin: 4.375rem 0 4.5rem 10.25%;
+        width: 80%;
+        height: 14.75rem;
+        background-color: #181818;
+        border-radius: 1.875rem;
+        font-family: 'ZuumeEL', sans-serif;
+        font-weight: 500;
+    }
+
+    .jointheteam {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.1rem;
+        color: #0a0a0a;
+        text-align: center;
+        margin-top: -20px;
+    }
+    .jtth1 {
+        margin-left: -50px;
+    }
+    .jtth2 {
+        margin: -30px 0 0 15px;
+    }
+
+    
+    .inputsignup {
+        margin-top: -50px;
+        width: 90%;
+        margin-left: 12px;
+    }
+
+    .inputtype {
+        width: 90%;
+        height: 5%;
+    }
+
+    .signup {
+        width: 90%;
+        height: 5%;
+    }
+    ::placeholder {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 324px) {
+    .jointheteam {
+        padding-left: -50px;
+        font-size: clamp(0.5rem, 9vw, 1.5rem);
+    }
+}
+

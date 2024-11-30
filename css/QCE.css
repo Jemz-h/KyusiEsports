@@ -1,0 +1,179 @@
+/* Main content here Kyusi Esports */
+main {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Image Slider */
+.slider {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*Sponsors na text*/
+.sponsors-title {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: 'ZuumeEL', sans-serif; 
+}
+
+.red-letter {
+    color: #fd3029; 
+    font-family: 'ZuumeEL', sans-serif; 
+}
+
+/* Sponsors */
+
+.image-gallery {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sponsor1 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    background-color: #222327;
+    border-radius: 8px;
+}
+
+.sponsor2 {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    background-color: #222327;
+    border-radius: 8px;
+}
+
+.sponsor3, .sponsor4 {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    background-color: #222327;
+    border-radius: 8px;
+}
+
+@media (max-width: 1000px) { 
+    .slider button {
+        font-size: 1.3rem;
+    }
+
+    .slider button {
+        font-size: 1.5rem;
+        padding: 8px 8px;
+    }
+}
+
+@media (max-width: 950px) {
+    .image-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sponsor1, .sponsor2, .sponsor3, .sponsor4 {
+        width: 80%; 
+    }
+
+    .sponsors-title {
+        text-align: center;
+        letter-spacing: 4px;
+        margin-top: 25px;
+        font-size: 2.2rem;
+        font-family: 'ZuumeEL', sans-serif; 
+    }
+
+    .slider button {
+        font-size: 1.3rem;
+    }
+
+    .slider button {
+        font-size: 1rem;
+        padding: 10px 8px;
+    }
+}
+
+@media (max-width: 500px) { 
+    .sponsors-title {
+        text-align: center;
+        letter-spacing: 4px;
+        margin-top: 25px;
+        font-size: 1.5rem;
+        font-family: 'ZuumeEL', sans-serif; 
+    }
+
+    .slider button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        padding: 2px 2px;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 350px) { 
+    .sponsors-title {
+        text-align: center;
+        letter-spacing: 4px;
+        margin-top: 25px;
+        font-size: 1.2rem;
+        font-family: 'ZuumeEL', sans-serif; 
+    }
+}
+

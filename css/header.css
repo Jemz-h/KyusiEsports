@@ -1,0 +1,436 @@
+@font-face {
+    src: url(../qcefonts/Zuume\ Regular.ttf);
+    font-family: Zuume;
+}
+
+@font-face {
+    src: url(../qcefonts/Zuume\ ExtraLight.ttf);
+    font-family: ZuumeEL;
+}
+
+@font-face {
+    src: url(../qcefonts/Zuume\ Light.ttf);
+    font-family: ZuumeL;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zuume', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #fd3029;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-color);
+    background-color: #1a1a1a;
+    color: var(--text-color);
+    line-height: 1.5;
+    padding-top: 100px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 10%;
+    transition: all 0.5s ease;
+    border-bottom: 1px solid gray;
+    background-color: #222327;
+}
+
+header span {
+    font-style: italic;
+    font-family: 'Zuume';
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.kyusilogo {
+    font-size: 28px;
+    margin-right: 3px;
+    width: 50px;
+    height: auto;
+}
+
+.logo span {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 20px;
+    transition: all 0.5s ease;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+}
+
+.header-main a {
+    margin-right: 15px;
+    margin-left: 5px;
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user i {
+    color: var(--main-color);
+    font-size: 25px;
+    margin-right: 7px;
+}
+
+.header-main a:hover {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 30px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+#menu-icon.bx-x {
+    color: var(--main-color);
+}
+
+@media (max-width: 1351px) {
+    header {
+        padding: 14px 2%;
+    }
+    .navbar a {
+        margin: 0px 15px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .navbar a {
+        margin: 0px 10px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -270px;
+        width: 270px;
+        height: auto;
+        background: #fd3029;
+        flex-direction: column;
+        padding: 20px 0;
+        border-radius: 10px;
+        transition: right 0.5s ease;
+        overflow-y: auto;
+    }
+    .navbar.open {
+        right: 2%;
+    }
+    .navbar a {
+        color: var(--text-color);
+        margin: 12px 0;
+        padding: 0px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo span {
+        font-size: 1.5rem;
+ }
+
+    .kyusilogo {
+        width: 35px;
+    }
+
+    body {
+        padding-top: 80px;
+    }
+
+    .header-main a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 380px) {
+    header {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+    }
+
+    body {
+        padding-top: 90px;
+    }
+
+    .logo span {
+        font-size: 1.5rem;
+    }
+
+    .header-main a {
+        font-size: 1.3rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        right: -570px;
+        width: 100%;
+        background: var(--main-color);
+        transition: right 0.5s ease;
+        padding: 20px 0;
+        z-index: 999;
+    }
+    .navbar.open {
+        right: 0;
+    }
+    .navbar a {
+        font-size: 1rem;
+        margin: 8px 0;
+        padding: 10px 15px;
+    }
+    .kyusilogo {
+        width: 27px;
+    }
+    .header-main {
+        flex: 1;
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar a {
+        font-size: 1.3rem;
+        padding: 8px 10px;
+    }
+    .logo {
+        margin-right: auto;
+    }
+}
+
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.three-dots {
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown when toggled */
+.dropdown-content.show {
+    display: block;
+}
+
+/* Login/Register */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #222327;
+    margin: 20% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 700px; 
+    max-width: 90%; 
+    border-radius: 20px; 
+    color: var(--text-color);
+    overflow-y: hidden;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal form label {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.modal form input {
+    padding: 15px;
+    margin-top: 5px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+
+}
+
+.modal form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fefefe;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.modal form button:hover {
+    background-color: #e02e27;
+}
+
+.modal p {
+    margin: 10px 0;
+    font-size: 1rem; 
+    color: #d7caca; 
+}
+
+.modal small {
+    display: block; 
+    margin-top: 6px; 
+    color: #0b0101; 
+    font-size: 10rem; 
+}
+
+.scrollable-form {
+    max-height: 500px; 
+    overflow-y: overlay;  
+    padding: 1px;     
+    box-sizing: border-box; 
+}
+
+/* Custom scrollbar styles for webkit browsers (Chrome, Safari) */
+.scrollable-form::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.scrollable-form::-webkit-scrollbar-track {
+    background: #fd3029; 
+    border-radius: 10px; 
+}
+
+.scrollable-form::-webkit-scrollbar-thumb {
+    background: #f30000; 
+    border-radius: 10px; 
+}
+
+.scrollable-form::-webkit-scrollbar-thumb:hover {
+    background: #ff0202; 
+}
+
+/* Custom scrollbar styles for Firefox */
+.scrollable-form {
+    scrollbar-width: thin; 
+    scrollbar-color: #ff0000 #f1f1f1; 
+}
+
+
+.hidden {
+    display: none;
+}

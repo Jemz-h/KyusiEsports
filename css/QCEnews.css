@@ -1,0 +1,296 @@
+/*CODES FOR CONTENTS*/
+
+
+.titlenews {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+    font-size: 70px;
+
+}
+.twocontainer {
+    margin: 1.625rem 0 8.6875rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.item1, .item2 {
+    border-radius: 20px;
+}
+
+.item1-whole-content {
+    margin: 20px 10px 0 40px;
+    
+}
+
+.item1-content {
+    margin-top: 10px;
+    color: white;
+    list-style: disc;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: 'ZuumeL';
+    font-weight: 200;
+
+}
+
+.item1 {
+    background-color: #1a1818;
+    width: 20%;
+    height: auto;
+}
+.item2 {
+  background-color: #C20D43;
+  width: 60%;
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 20px 20px 0 20px;
+}
+
+.astreusimg {
+    width: 53%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.astreus1 {
+    font-size: 50px;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+.a {
+    color: #000000;
+}
+
+.baba-ng-astreus {
+    padding: 0 15px 0 15px;
+    margin-top: 10px; 
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #ececec;
+    text-align: justify;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+}
+.h1h2 {
+    flex-direction: column;
+}
+
+.long-content {
+    color: #ececec;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.6;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    width: 99%;
+    margin-top: -470px;
+    margin-bottom: 50px; 
+}
+
+/* RESPONSIVENESS OF CONTENTS*/
+@media (max-width: 2560px) {
+.astreus1 {
+    font-size: clamp(10px, 10vw, 80px);
+}
+.baba-ng-astreus {
+    font-size: 40px;
+}
+}
+@media (max-width: 1997px) {
+.astreus1 {
+    font-size: clamp(10px, 10vw, 60px);
+}
+.baba-ng-astreus {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 1440px) {
+
+.item1 {
+    margin-left: 0;
+}
+.item2 {
+    width: 70%;
+}
+
+.item1-content {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+    .astreusimg {
+    width: 53%;
+    height: 320px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.astreus1 {
+    font-size: 40px;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.baba-ng-astreus {
+    padding: 0 15px 0 15px;
+    margin-top: 10px; 
+    font-size: clamp(1rem, 2.2vw, 1.6rem);
+}
+.long-content {
+    font-size: 1.6rem;
+    margin-top: -390px;
+}
+}
+
+@media (max-width: 1024px) {
+.twocontainer {
+    gap: 10px;
+}
+
+.titlenews {
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.item1-content {
+    margin-top: 10px;
+    font-size: clamp(0.8rem, 2.2vw, 1.2rem);
+}
+
+
+.astreusimg {
+    width: 53%;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.astreus1 {
+    font-size: 30px;
+    font-family: 'ZuumeL';
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.baba-ng-astreus {
+    padding: 0 15px 0 15px;
+    margin-top: 10px; 
+    font-size: clamp(0.8rem, 2.2vw, 1.5rem);
+}
+.long-content {
+    font-size: clamp(0.8rem, 2.2vw, 1.2rem);
+    margin-top: -270px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+    .twocontainer {
+    margin: 20px 0 50px 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+    .titlenews {
+    margin-top: 90px;
+    font-size: 40px;
+}
+.item1 {
+    margin-left: 10px;
+    width: 95%;
+}
+.item2 {
+    margin-left: 10px;
+    width: 95%;
+    height: auto;
+}
+
+.item1-content {
+    margin-top: 10px;
+    font-size: clamp(1.5rem, 2.3vw, 2.5rem);
+}
+
+
+.astreusimg {
+    width: 50%;
+    height: 190px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.astreus1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.baba-ng-astreus {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 26px; 
+    font-size: clamp(1rem, 2.3vw, 1.5rem);
+}
+.long-content {
+    margin-top: -230px;
+    font-size: clamp(1rem, 2.3vw, 1.5rem);
+}
+}
+
+@media (max-width: 606px) {
+.astreus1 {
+    font-size: 30px;
+    margin-top: -10px;
+}
+.long-content {
+    margin-top: -260px;
+}
+}
+
+@media (max-width: 499px) {
+.astreusimg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    margin-right: 20px;
+}   
+.item2 {
+    display: flex;
+    flex-direction: column;
+}
+.img-content {
+    display: flex;
+    flex-direction: column;
+}
+.astreus1 {
+    margin-top: 10px;
+}
+}
+
+@media (max-width: 425px) {
+.twocontainer {
+    margin-right: 10px;
+}
+.item1-content {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+}
+
