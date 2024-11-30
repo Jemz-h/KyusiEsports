@@ -53,6 +53,9 @@
                         <label for="course">Course:</label>
                         <input name="course" type="text" id="course" placeholder="Course Name - BSIT" required>
 
+                        <label for="course">Address:</label>
+                        <input name="address" type="text" id="address" placeholder="Enter your address" required>
+
                         <label for="email">Email Address:</label>
                         <input name="email" type="email" id="newEmail" placeholder="Email Address" required>
 

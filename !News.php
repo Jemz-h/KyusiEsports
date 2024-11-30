@@ -87,7 +87,7 @@
 </div>
 
     <!-- External JavaScript -->
-    <script src="QCEnews.js"></script>
+    <script src="javascript/QCEnews.js"></script>
 </body>
 
 </html>
