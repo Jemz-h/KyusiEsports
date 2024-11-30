@@ -45,7 +45,7 @@
                         </div>
 
                         <label for="num">Student Number:</label>
-                        <input name="studentNumber" type="number" id="num" placeholder="Student Number - 24-0000" required>
+                        <input name="studentNumber" type="text" id="num" placeholder="Student Number - 24-0000" required oninput="formatStudentNumber(event)">
 
                         <label for="bday">Date of Birth:</label>
                         <input name="dateOfBirth" type="date" id="bday" required>
