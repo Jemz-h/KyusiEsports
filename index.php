@@ -9,7 +9,7 @@
 <body>
     <div class="wrapper">
 
-         <?php include "#Navbar.php"; ?>
+    <?php include "#Navbar.php"; ?>
         
         <!-- Main Section ito-->
         <main class="main-content">

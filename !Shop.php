@@ -9,7 +9,7 @@
 <body>
     <div class="wrapper">
         <!-- Header Section ito-->
-        <?php include "#Navbar.php"; ?>
+        <?php include "#Navbar.php";?>
 
         <!-- Main Section ito-->
         <main>
@@ -22,11 +22,11 @@
                 <h2>Featured Merchandise</h2>
                 <p>Kyusi Esports Cool Modern Designs</p>
                 <div class="pro-container">
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/firstimage.webp" alt="">
+                    <div class="pro" onclick="window.location.href='products/!Product.php';">
+                        <img src="qceimages/ShopDisplays/Tote Bag/Tote Bag.png" alt="">
                         <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
+                            <span>Original Design</span>
+                            <h5>Assorted Tote Bags</h5>
                             <div class="star">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -34,11 +34,59 @@
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
                             </div>
-                            <h4>₱5 Dalawa</h4>
+                            <h4>₱250</h4>
                         </div>
                         <i class='bx bxs-cart-alt cartbox'></i>
                     </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
+                    <div class="pro" onclick="window.location.href='products/!Product2.php';">
+                        <img src="qceimages/ShopDisplays/Lace/Id Lace.png" alt="">
+                        <div class="des">
+                            <span>Original Design</span>
+                            <h5>Kyusi Esports ID Lace</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>₱50</h4>
+                        </div>
+                        <i class='bx bxs-cart-alt cartbox'></i>
+                    </div>
+                    <div class="pro" onclick="window.location.href='products/!Product3.php';">
+                        <img src="qceimages/ShopDisplays/Pins/Pin.png" alt="">
+                        <div class="des">
+                            <span>Hand Drawn</span>
+                            <h5>Assorted Pins</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>₱35</h4>
+                        </div>  
+                        <i class='bx bxs-cart-alt cartbox'></i>
+                    </div>
+                    <div class="pro" onclick="window.location.href='products/!Product4.php';">
+                        <img src="qceimages/ShopDisplays/Stickers/Sticker.png" alt="">
+                        <div class="des">
+                            <span>Hand Drawn</span>
+                            <h5>Assorted Stickers</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>₱10</h4>
+                        </div>
+                        <i class='bx bxs-cart-alt cartbox'></i>
+                    </div>
+                    <!-- <div class="pro" onclick="window.location.href='!Product.php';">
                         <img src="qceimages/secimage.webp" alt="">
                         <div class="des">
                             <span>Original 'to</span>
@@ -53,104 +101,8 @@
                             <h4>₱5 Dalawa</h4>
                         </div>
                         <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/thirdimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/fourthimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/firstimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/secimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/thirdimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                    <div class="pro" onclick="window.location.href='!Product.php';">
-                        <img src="qceimages/fourthimage.webp" alt="">
-                        <div class="des">
-                            <span>Original 'to</span>
-                            <h5>Pinakamaangas na Sweater sa QCU</h5>
-                            <div class="star">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                            </div>
-                            <h4>₱5 Dalawa</h4>
-                        </div>
-                        <i class='bx bxs-cart-alt cartbox'></i>
-                    </div>
-                </div>
+                    </div> -->
+                    
             </section>
 
             <section id="newsletter" class="section-p1">

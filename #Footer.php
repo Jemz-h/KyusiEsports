@@ -3,7 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="/KyusiEsports/css/footer.css">
     <title>Footer</title>
  </head>
  <body>
@@ -15,37 +15,34 @@
                     <h4>Contact Us</h4>
                     <ul>
                         <li><a href="#">@KYUSIESPORTS</a></li>
-                        <li><a href="#">number nila</a></li>
-                        <li><a href="#">hindi ko na alam</a></li>
+                        <li><a href="#">KyusiEsports@gmail.com</a></li>
                         <li><a href="#">673 Quirino Hwy, Novaliches, Quezon City, Metro Manila, Quezon City Philippines, 1666</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>hindi ko na alam</h4>
+                    <h4>Esports</h4>
                     <ul>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
+                        <li><a href="#">Honor of Kings</a></li>
+                        <li><a href="#">League of Legends</a></li>
+                        <li><a href="#">Mobile Legends: Bang Bang</a></li>            
+                        <li><a href="#">Tekken 8</a></li>
+                        <li><a href="#">Valorant</a></li>
+                        <li><a href="#">Wild Rift</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FAQs</h4>
+                    <ul>
+                        <li><a href="#">What games do you focus?</a></li>
+                        <li><a href="#">Where are your teams based?</a></li>
+                        <li><a href="#">How do sponsorships benefit your organization?</a></li>
                         <li><a href="#">wala pa</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>ano ilalagay rito jemz</h4>
-                    <ul>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
-                        <li><a href="#">wala pa</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Socials</h4>
+                    <h4>Social</h4>
                     <div class="social-links">
                         <a href="https://www.facebook.com/KyusiEsportsCommunity" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/kyusiesports/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

@@ -9,6 +9,17 @@
 </head>
 
 <body>
+    <?php 
+        include "functions/conn.php";
+        $sql = "SELECT Text FROM adminedit ORDER BY ID DESC LIMIT 1"; 
+        $result = $conn->query($sql);
+        
+        if ($result && $row = $result->fetch_assoc()) {
+            $latestMessage = htmlspecialchars($row['Text']); 
+        } else {
+            $latestMessage = "No messages found."; 
+        }
+    ?>
 <div class="wrapper">
         
         <!-- Header Section -->
@@ -43,21 +54,16 @@
                     <p class="astreus1">
                         <span class="a" style="font-size: #ff0909; 
                                             font-family: Oswald;">A</span>ST<span style="color: #000000; 
-                                                                                            font-family: Oswald;">RE</span>US</p>
+                                                                                            font-family: Oswald; margin: none;">RE</span>US</p>
                     
                     <p class="baba-ng-astreus">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Donec felis quam, convallis ac rutrum eget, hendrerit ut sapien. 
-                        Phasellus vulputate justo in quam dignissim, in auctor lorem semper. 
-                        Vivamus condimentum porta nisl in tristique. Praesent vitae sagittis ante.
+                    <?php echo $latestMessage; ?>
                     </p>
                     </div>
                 </div>
                 
-                <p class="long-content">
-                    <br><br><br><br><br><br><br><br><br><br>
-                    Dito yung news mga kaibigan!! 
-                    Etiam accumsan ex et ipsum scelerisque, ac cursus nunc mollis. 
+                <p class="long-content" style="padding-top: 30rem;">
+                    c1Etiam accumsan ex et ipsum scelerisque, ac cursus nunc mollis. 
                     Mauris volutpat pretium odio sit amet ullamcorper. Donec non tincidunt nunc. 
                     Vestibulum at quam blandit, viverra tortor vel, mattis velit. 
                     Pellentesque consectetur ipsum mauris, vitae ornare turpis facilisis eu. 
